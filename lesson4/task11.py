@@ -23,4 +23,4 @@ checked_nums_list = []
 for i in num_list3:
     if num_list3.count(i) > 1 and i not in checked_nums_list:
         checked_nums_list.append(i)
-        print(i)
+print(i)
